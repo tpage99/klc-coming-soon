@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+}
+
+.navbar {
+    background-color: #f0ead6;
+}
+
+body {
+    background-color: #f0ead6;
+    font-family: 'Noto Serif KR', sans-serif;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5em;
+}
+
+.cover-heading {
+    padding-top: 50px;
+}
+
+.full-cover {
+    padding-top: 60px;
+    object-fit: cover;
+}
+
+.hero-image {
+    background-image: url('https://res.cloudinary.com/tpage99/image/upload/v1546025531/Kevs%20site/kcl-footer-background.png');
+    height: 100vh;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-heading {
+    background: whitesmoke;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    vertical-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sticky {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.image-cover {
+    padding-top: 100px;
+}
+
+.card-section {
+    background-color: floralwhite;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 50px #000000;
+}
+
+.card-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.space {
+    padding-top: 50px;
+}
+
+.small-space {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 44, 44);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.plain-text {
+    color: black;
+    text-decoration: underline; 
+}
+
+.plain-text-footer {
+    color: whitesmoke;
+}
+
+.blank-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sample-menu {
+    border-top: 1mm solid rgb(48, 44, 44);
+    border-bottom: 1mm solid rgb(48, 44, 44);
+}
+
+.menu-space {
+    padding-top: 20px;
+}
+
+.menu-space h2 {
+    text-decoration: underline;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation: fading 8s infinite;
+}
+
+@keyframes fading {
+    0%{opacity:0}
+    30%{opacity:1}
+    70%{opacity:1}
+    100%{opacity:0}
+}
